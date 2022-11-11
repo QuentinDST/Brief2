@@ -152,20 +152,98 @@ header{
     height: auto;
 }
 
-.main__home__content__picture{
-}
-
 .main__home__content__title{
     position: absolute;
     padding: 30px;
+    align-items: center;
+
     
 
 }
 
 
+/** CARDS SECTION **/
+
+
+.main__card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main__card__content{
+    width: 100%;
+    flex:1 1 0%;
+    margin: auto;
+}
+
+.main__card__title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.main__card__title, h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.main__card__title>a{
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.main__card__products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 40px;
+}
+
+.main__card__product{
+    display: flex;
+    width: 300px;
+    height: 500px;
+    margin: 30px;
+}
+
+
+.product{
+    width: 200px;
+    height: 300px;
+}
+
+.card__img{
+    display: block;
+    width: 300px;
+    height: auto;
+}
+
+.card__product{
+    margin-top: -10px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.mark__product, .size__product{
+    font-weight: lighter;
+}
+
+
+
+
+
 
 
 /** MEDIA QUERIES**/
+
 
 
 @media (min-width:768px){
@@ -190,7 +268,16 @@ header{
         border-radius: 10px;
         padding: 30px;
     }
+
+    .main__card{
+        padding-top: 550px;
+    }
 }
+
+
+
+
+
 
 @media (max-width: 1024px){
     .input__navbar{
@@ -201,6 +288,9 @@ header{
         align-items: center;
     }   
 }
+
+
+
 
 
 
