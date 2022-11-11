@@ -4,7 +4,7 @@ body{
     font-size: 1.5em;
     font-family: 'Signika';
     color: black;
-    margin-top: 10px;
+    margin-top: 30px;
 
 }
 
@@ -19,6 +19,8 @@ header{
     margin-right: 20px;
     justify-content: center;
     width: 100%;
+    height: 60px;
+    margin-bottom: 100px;
 }
 
 .navbar{
@@ -113,21 +115,82 @@ header{
 
 /** HOME SECTION **/
 
+.main{
+    padding-top: 100px;
+}
 
-.home{
+.main__home{
+    position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-
-.img{
-    display: block;
+.main__home__content{
     width: 100%;
-    height: 245px;
 }
+
+.main__home__button{
+    margin-right: 5px;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    text-decoration-line: none;
+    background-color: #047584;
+    color: #ffffff;
+}
+
+.home__picture{
+    display: block;
+    height: 350px;
+    width: 100vw;
+    margin:auto;
+    background-size: contain;
+    height: auto;
+}
+
+.main__home__content__picture{
+}
+
+.main__home__content__title{
+    position: absolute;
+    padding: 30px;
+    
+
+}
+
+
 
 
 /** MEDIA QUERIES**/
+
+
+@media (min-width:768px){
+    .home__picture{
+        height: 550px;
+        display: block;
+        width: 100vw;
+    }
+
+    .main__home{
+        position: absolute;
+    }
+
+    .main__home__content__title{
+        position: relative;
+        z-index: 2;
+        margin-top: -430px;
+        background-color: #ffffff;
+        margin-left: 50px ;
+        width: 500px;
+        height: 250px;
+        border-radius: 10px;
+        padding: 30px;
+    }
+}
 
 @media (max-width: 1024px){
     .input__navbar{
