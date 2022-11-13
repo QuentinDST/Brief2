@@ -34,6 +34,13 @@ header{
     position: absolute;
 }
 
+.navbar1__items__logo__img{
+    width: 130px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 1px;
+}
+
 .navbar1__items{
     display: flex;
     flex-direction: row;
@@ -481,6 +488,7 @@ header{
     display: flex;
     margin-top: 100px;
     margin-left: 100px;
+    justify-content: center;
 }
 
 .main__join__content{
@@ -578,9 +586,8 @@ header{
     }
 
     .main__join__picture, img{
-        width: 50vw;
         overflow: hidden;
-        width: 600px;
+        width: 760px;
         height: 600px;
         margin-top: -50px;
         margin-left: 0px;
@@ -588,21 +595,22 @@ header{
 
     .main__logo__content{
         display: flex;
-        flex-direction: row;
-        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 100px;
+
     }
 
     .main__logo__item{
         justify-content: center;
+        width: 300px;
+        height: 500px;
+        padding: 50px;
     }
 
-    .main__logo__item,img{
-        width: 150px;
+   .logo__img{
+        width: 200px;
         height: 200px;
-    }
-
-    .logo__img{
-        margin-left: -20px;
     }
 
 }
@@ -703,14 +711,5 @@ header{
 
     .navbar1__items__burger{
         display: none;
-    }
-
-    .main__join__picture{
-        justify-content: center;
-        align-items: center;
-    }
-
-    .main__join__picture, img{
-        margin-left: 50px;
     }
 }
