@@ -130,13 +130,13 @@ header{
 
 .main__home__button{
     margin-right: 5px;
-    height: 30px;
+    height: 40px;
     border-radius: 4px;
     font-size: 14px;
     padding: 10px;
     text-align: center;
     justify-content: center;
-    width: 200px;
+    width: 400px;
     text-decoration-line: none;
     background-color: #047584;
     color: #ffffff;
@@ -218,11 +218,6 @@ header{
 }
 
 
-.product{
-    width: 200px;
-    height: 300px;
-}
-
 .card__img{
     display: block;
     width: 300px;
@@ -249,7 +244,6 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px;
     margin-left: 50px;
 }
 
@@ -277,7 +271,206 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-right: 40px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.main__send__cards{
+    display: flex;
+    width: 500px;
+    height: 700px;
+}
+
+
+.send__img{
+    display: block;
+    height: auto;
+    width: 500px;
+}
+
+.send{
+    width: 300px;
+}
+
+.send__title{
+    font-weight: 400;
+}
+
+.send__text{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.main__send__button{
+    width: 100%;
+    text-align: center;
+}
+
+.send__button{
+    display: inline-block;
+    border: solid 1px #047584;
+    border-radius:7px;
+    font-size: 25px;
+    padding: 20px;
+    text-decoration-line: none;
+    color: #047584;
+    margin: 0 auto;
+}
+    
+
+/** USERS SECTION **/ 
+
+.main__users{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.main__users__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.main__users__title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    width: 100%;
+}
+
+.main__users__card{
+    text-align: center;
+}
+
+.main__users__cards{
+    display: flex;
+    width: 400px;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+
+.users__img{
+    display: block;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.users__name{
+    font-weight: 500;
+    margin-bottom: -20px;
+    font-size: 30px;
+}
+.users__followers{
+    font-weight: 300;
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.users__button{
+    display: inline-block;
+    text-align: center;
+    border: solid 1px #047584;
+    border-radius:7px;
+    font-size: 20px;
+    padding: 15px;
+    width: 150px;
+    text-decoration-line: none;
+    color: #047584;
+    margin: 0 auto;
+}
+
+
+/** SHOP SECTION**/
+
+
+.main__shop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.main__shop__content{
+    width: 100%;
+    margin: auto;
+}
+
+.main__shop__title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.main__shop__title, h1{
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+.main__shop__step{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.main__shop__cards{
+    display: flex;
+    width: 500px;
+    height: 700px;
+}
+
+
+.shop__img{
+    display: block;
+    height: auto;
+    width: 500px;
+}
+
+.shop{
+    width: 300px;
+}
+
+.shop__title{
+    font-weight: 400;
+}
+
+.shop__text{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.main__shop__button{
+    width: 100%;
+    text-align: center;
+}
+
+.shop__button{
+    display: inline-block;
+    border: solid 1px #047584;
+    border-radius:7px;
+    font-size: 25px;
+    padding: 20px;
+    text-decoration-line: none;
+    color: #047584;
+    margin: 0 auto;
 }
 
 
