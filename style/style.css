@@ -10,6 +10,39 @@ body{
 }
 
 
+/** LOGIN PAGE**/
+
+.login .main__logo{
+    margin-top: 0px;
+}
+
+.main__login{
+    padding-top: 100px;
+    display: flex;
+}
+
+
+.main__login__form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 100px;
+    vertical-align: baseline;
+}
+
+.main__login__button{
+    position: relative;
+    display: flex;
+    padding: 40px;
+
+}
+
+
+/** INDEX PAGE **/
+
+
+
+
 /** NAVBAR**/
 
 header{
@@ -19,7 +52,7 @@ header{
     width: 100%;
     height: 110px;
     position: fixed;
-    z-index: 3;
+    z-index: 99;
     background-color: #ffffff;
     margin-left: -5px;
 }
@@ -591,7 +624,6 @@ header{
     flex-direction: column;
     width: 100%;
     list-style-type: none;
-    padding: 60px;
     margin-top: 25px;
 }
 
@@ -602,6 +634,10 @@ header{
 .footer__contact, ul{
     list-style-type: none;
     font-weight: 200;
+}
+
+.footer__contact, ul, li{
+    padding-left: 0px;
 }
 
 
