@@ -5,7 +5,6 @@ body{
     font-family: 'Signika';
     color: black;
     position: relative;
-    z-index: 1;
     margin-top: -10px;
     margin: 0;
     padding: 0;
@@ -192,10 +191,11 @@ header{
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 110px;
+    height: 90px;
     position: fixed;
-    z-index: 99;
+    z-index: 4;
     background-color: #ffffff;
+    margin-top: -30px;
 }
 
 
@@ -351,8 +351,6 @@ header{
     justify-content: center;
     padding-top: 200px;
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .main__card__content{
@@ -367,7 +365,7 @@ header{
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 .main__card__title, h1{
@@ -381,6 +379,7 @@ header{
     font-size: 20px;
     font-weight: 300;
     margin-right: 100px;
+    text-decoration: underline;
 }
 
 .main__card__products{
@@ -395,25 +394,48 @@ header{
     width: 300px;
     height: 500px;
     margin: 10px;
+    cursor: pointer;
 }
-
 
 .card__img{
     display: block;
     width: 300px;
     height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.card{
+    position: relative;
+}
+
+.card__logo{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    z-index: 3;
+    color: black;
+    top: 25px;
+    right: 25px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
 }
 
 .card__product{
-    margin-top: -10px;
     padding-left: 20px;
     font-size: 16px;
 }
 
 .mark__product, .size__product{
     font-weight: lighter;
+    margin-top: -10px;
 }
 
+.mark__product{
+    font-size: 18px;
+    margin-bottom: 2px;
+}
 
 
 /** SEND SECTION**/
@@ -424,12 +446,10 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 50px;
 }
 
 .main__send__content{
     width: 100%;
-    margin: auto;
 }
 
 .main__send__title{
@@ -451,7 +471,6 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: auto;
     margin-top: 50px;
 }
 
@@ -459,7 +478,9 @@ header{
 .main__send__cards{
     display: flex;
     width: 400px;
-    height: 600px;
+    height: 550px;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
 
@@ -470,7 +491,7 @@ header{
 }
 
 .send{
-    width: 300px;
+    width: 400px;
 }
 
 .send__title{
@@ -507,7 +528,6 @@ header{
     align-items: center;
     justify-content: space-between;
     margin-top: 100px;
-    margin-left: 100px;
 }
 
 .main__users__content{
@@ -521,7 +541,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 100px;
     width: 100%;
 }
 
@@ -535,25 +555,29 @@ header{
     height: 500px;
     margin-top: 100px;
     margin-bottom: 70px;
+    cursor: pointer;
 }
 
 
+.users{
+    display: flex;
+    flex-direction: column;
+}
+
 .users__img{
     display: block;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     background-size: cover;
 }
 
 .users__name{
     font-weight: 500;
-    margin-bottom: -20px;
     font-size: 30px;
 }
 .users__followers{
     font-weight: 300;
-    margin-top: 0;
     font-size: 25px;
 }
 
@@ -579,7 +603,6 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 50px;
 }
 
 .main__shop__content{
@@ -593,7 +616,7 @@ header{
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 .main__shop__title, h1{
@@ -614,7 +637,8 @@ header{
 .main__shop__cards{
     display: flex;
     width: 400px;
-    height: 600px;
+    height: 500px;
+    cursor: pointer;
 }
 
 
@@ -625,7 +649,7 @@ header{
 }
 
 .shop{
-    width: 300px;
+    width: 400px;
 }
 
 .shop__title{
@@ -709,7 +733,6 @@ header{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 100px;
 }
 
 .main__logo__item{
@@ -720,6 +743,13 @@ header{
     flex: 1 1 0%;
     position: relative;
     padding: 25px 15px;
+    cursor: pointer;
+}
+
+.logo__img{
+    display: block;
+    width: 50px;
+    height: 50px;
 }
 
 
@@ -801,7 +831,7 @@ header{
 .footer__cvg__bank{
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 45px;
     justify-content: center;
     align-items: center;
 }
@@ -823,7 +853,7 @@ header{
     .main__login__picture{
         display: block;
         width: 50vw;
-        margin-top: 200px;
+        margin-top: 150px;
     }
 
     .login__picture{
@@ -836,13 +866,12 @@ header{
     .main__login__form{
         width: 50vw;
         position: relative;
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     .main__logo{
         margin-top: -100px;
     }
-
 }
 
 
@@ -914,14 +943,15 @@ header{
         justify-content: space-evenly;
         vertical-align: center;
         align-items: center;
+        height: 150px;
     }
 
     .footer__social__logo, .social__logo{
         margin-bottom: 12px;
     }
 
-    .footer__social__appli, .social__appli{
-        margin-bottom: 5px;
+    .footer__social__logo, .footer__social__appli{
+        margin-bottom: 90px;
     }
 
     .footer__contact{
