@@ -199,6 +199,9 @@ header{
 
 /** NAV 1 **/
 
+.navbar{
+    height: 150px;
+}
 
 .navbar1__items__logo{
     position: absolute;
@@ -290,7 +293,7 @@ header{
 /** HOME SECTION **/
 
 .main{
-    padding-top: 0px;
+    padding-top: 40px;
 }
 
 .main__home{
