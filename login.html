@@ -46,33 +46,61 @@
 
     <main class="main">
         <section class="main__login">
+            
             <div class="main__login__picture">
-
+                <img class="login__picture" src="images/loginpicture/girl.jpg" alt="">
             </div>
 
             <div class="main__login__form">
-                <div class="main__login__button">
-                    <img class="main__login__logo" src="" alt="">
+                <div class="main__login__form__items">
+                    <div class="main__login__logo">
+                        <img class="login__logo" src="images/logo/logo.png" alt="">
+                    </div>
                     <h3 class="main__login__title">Découvrez le marché des vetements d'occasion à la mode.</h3>
-                        <button class="main__login__button">
-                            <img src="" alt="">Continuer avec Facebook
-                        </button>
-                        <button class="main__login__button">
-                            <img src="" alt="">Continuer avec Google
-                        </button>
-                        <button class="main__login__button">
-                            <img src="" alt="">Continuer avec Apple
-                        </button>
+                    
+                    <div class="main__login__button">
+                        <a class="facebook__button" href=""><img class="facebook__logo" src="images/cvg/facebook1.svg" alt="">Continuer avec Facebook</a>
+                        <a class="google__button" href=""><img class="google__logo" src="images/cvg/facebook2.svg" alt="">Continuer avec Google</a>
+                        <a class="apple__button" href=""><img class="apple__logo" src="images/cvg/facebook3.svg" alt="">Continuer avec Apple</a>
+                    </div>
+                    
                     <div>
                         <h3>Ou</h3>
                     </div>
 
-                    <form action="">
-                        <div>
+                    <form class="global__form__contact" action="">
+                        <div class="form__contact__name">
+                            <div class="first__name">
+                                <input class="input__firstname"type="text" placeholder="Prénom">
+                            </div>
 
+                            <div class="second__name">
+                                <input class="input__secondname" type="text" placeholder="Nom de famille">
+                            </div>
+                        
+                        </div class="form__contact__mail">
+                            <div class="email">
+                                <input class="input__email" type="email" placeholder="Adresse courriel">
+                            </div>
+
+                        <div class="form__contact__password">
+                            <div class="password">
+                                <input class="input__password" type="password" placeholder="Mot de passe">
+                            </div>
                         </div>
-                        <div></div>
-                        <div></div>
+
+                        <div class="form__contact__text">
+                            <p>En continuant à utiliser l'application et le site Vinted, vous déclarez avoir 18 ans ou plus et avoir lu, compris et accepté les <span class="form__text"> Conditions Générales.</span></p>
+                            <p>Ce site est protégé par reCAPTCHA. Les <span class="form__text">règles de confidentialité</span> et <span class="form__text">les conditions d’utilisation</span> de Google s’appliquent.</p>
+                        </div>
+
+                        <div class="form__contact__button">
+                            <a class="contact__button" href="">S'inscrire</a>
+                        </div>
+
+                        <div class="form__contact__text__account">
+                            <p>Tu as déjà un compte? <span class="form__text"> Se connecter</span></p>
+                        </div>
                     </form>
                 </div>
             </div>
