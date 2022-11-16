@@ -7,6 +7,8 @@ body{
     position: relative;
     z-index: 1;
     margin-top: -10px;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -14,6 +16,7 @@ body{
 
 .main__login{
     display: flex;
+    margin: auto;
 }
 
 .main__login__picture{
@@ -21,7 +24,7 @@ body{
 }
 
 .main__login__form{
-    width: 100vw;
+    width: auto;
     height: auto;
     text-align: center;
     display: flex;
@@ -193,7 +196,6 @@ header{
     position: fixed;
     z-index: 99;
     background-color: #ffffff;
-    margin-left: -5px;
 }
 
 
@@ -439,7 +441,7 @@ header{
     margin-left: 100px;
 }
 
-.main__send__title, h1{
+.main__send__title, h2{
     font-size: 40px;
     font-weight: 500;
 
@@ -667,6 +669,7 @@ header{
     flex-wrap: wrap;
     margin: auto;
     justify-content: center;
+    align-items: center;
 }
 
 .main__join__us{
@@ -839,10 +842,8 @@ header{
     .main__logo{
         margin-top: -100px;
     }
+
 }
-
-
-
 
 
 /**************** MEDIA QUERIES INDEX PAGE ************/
@@ -885,7 +886,6 @@ header{
         overflow: hidden;
         width: 760px;
         height: 600px;
-        margin-top: -50px;
         margin-left: 0px;
     }
 
@@ -967,11 +967,15 @@ header{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 80vw;
+        width: 100%;
     }
 
     .navbar2{
         display: flex;
+    }
+
+    .navbar1__items{
+        margin: auto;
     }
 
     .navbar1__items__login{
@@ -981,10 +985,6 @@ header{
         margin-top: 20px;
     }
     
-    .navbar1__items{
-        margin: auto;
-    }
-
     .login1{
         margin-left: 150px ;
         border: solid 1px #047584;
